@@ -1,0 +1,46 @@
+@charset "UTF-8";
+*{ /* чтоб переходы были плавными и заметными */
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+section { 
+    position: relative;
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 400;
+    font-family:cursive;
+}
+section:nth-child(odd){
+    background: #cb8ad6
+}
+section:nth-child(even){
+    background: #cb8ad6
+
+}
+nav {
+    position: fixed;
+    top: 0;
+    
+    width: 100%;
+    text-align: center;
+    background:#c778c4 ; /*цвет меню*/
+}
+nav a{
+    position: relative;
+    color:aliceblue;
+    text-decoration: none;
+    padding: 2px 25px;
+    font-size: 2.5em;
+   display: inline-block;
+}
+nav a:hover { 
+    background: #ef8eca; /* при наведении на пункт меню цвет станет розовым няяяя */
+    color: black; /* а шрифт черным */
+}
