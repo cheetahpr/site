@@ -6,14 +6,18 @@ body {
     margin: 0;
     padding: 0;
 }
+.wrapper {
+    padding-top:  1px;
+    margin-top: 48px; 
+}
 section { 
     position: relative;
     width: 100%;
-    height: 850px;
+    height: 750px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 3em;
     font-weight: 400;
     font-family:cursive;
 }
@@ -22,7 +26,6 @@ section:nth-child(odd){
 }
 section:nth-child(even){
     background: #cb8ad6
-
 }
 nav {
     position: fixed;
@@ -44,3 +47,14 @@ nav a:hover {
     background: #ef8eca; /* при наведении на пункт меню цвет станет розовым няяяя */
     color: black; /* а шрифт черным */
 }
+#lulu {
+    padding-bottom: 200px;
+   
+}
+#text {
+    padding-right:250px;
+    padding-top:150px;
+    margin-right: 100px;
+}
+
+ 
